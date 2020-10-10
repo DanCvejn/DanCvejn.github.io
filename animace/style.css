@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Adidas";
+    font-weight: bold;
+    font-style: normal;
+    src: url(./font.otf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Adidas";
+    background-color: #040713;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 8em;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 20px;
+    margin-top: 0px;
+    animation: nadpis 15s linear infinite;
+}
+
+svg {
+    width: 600px;
+    fill: none;
+    background-color: #040713;
+    animation: aaa 15s linear infinite;
+    z-index: 1;
+}
+
+.logo1 {
+    stroke: white;
+    stroke-width: 5px;
+    animation: stroke1 15s linear infinite;
+}
+
+.logo2 {
+    stroke: #FF4655;
+    stroke-width: 4.5px;
+    animation: stroke2 15s linear infinite;
+}
+
+.logo3 {
+    stroke: #0a1431;
+    stroke-width: 5px;
+    animation: stroke3 15s linear infinite;
+}
+
+.logo4 {
+    fill: white;
+    opacity: 1;
+    animation: fill 15s linear infinite;
+}
+
+@keyframes stroke1 {
+    0% { stroke-dasharray: 0 845;}
+    12% { stroke-dasharray: 0 845;}
+    26% { stroke-dasharray: 845 0;}
+    73% { stroke-dasharray: 845 0;}
+    89% { stroke-dasharray: 0 845;}
+    100% { stroke-dasharray: 0 845;}
+}
+
+@keyframes stroke2 {
+    0% { stroke-dasharray: 0 845;}
+    10% { stroke-dasharray: 0 845;}
+    24% { stroke-dasharray: 845 0;}
+    74% { stroke-dasharray: 845 0;}
+    90% { stroke-dasharray: 0 845;}
+    100% { stroke-dasharray: 0 845;}
+}
+
+@keyframes stroke3 {
+    0% { stroke-dasharray: 0 845;}
+    8% { stroke-dasharray: 0 845;}
+    22% { stroke-dasharray: 845 0;}
+    76% { stroke-dasharray: 845 0;}
+    90% { stroke-dasharray: 0 845;}
+    100% { stroke-dasharray: 0 845;}
+}
+
+@keyframes fill {
+    0% { opacity: 0;}
+    33% { opacity: 0;}
+    35% {opacity: 1;}
+    73% { opacity: 1;}
+    75% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes aaa {
+    0% {width: 800px;}
+    28% {width: 800px;}
+    30% { width: 600px;}
+    70% {width: 600px;}
+    72% { width: 800px;}
+    100% { width: 800px;}
+}
+
+@keyframes nadpis {
+    0% { margin-top: -200px;}
+    30% { margin-top: -200px;}
+    32% { margin-top: 0px;}
+    68% { margin-top: 0px;}
+    70% { margin-top: -200px;}
+    100% { margin-top: -200px;}
+}
