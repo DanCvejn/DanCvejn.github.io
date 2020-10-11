@@ -2,7 +2,7 @@
     font-family: "Adidas";
     font-weight: bold;
     font-style: normal;
-    src: url(./font.otf);
+    src: url(./font.ttf);
 }
 
 html, body {
@@ -23,7 +23,7 @@ h1 {
     margin: 0;
     padding: 0;
     letter-spacing: 20px;
-    margin-top: 0px;
+    margin-top: -20px;
     animation: nadpis 15s linear infinite;
 }
 
@@ -107,8 +107,8 @@ svg {
 @keyframes nadpis {
     0% { margin-top: -200px;}
     30% { margin-top: -200px;}
-    32% { margin-top: 0px;}
-    68% { margin-top: 0px;}
+    32% { margin-top: -20px;}
+    68% { margin-top: -20px;}
     70% { margin-top: -200px;}
     100% { margin-top: -200px;}
 }
