@@ -18,13 +18,23 @@ html, body {
     flex-direction: column;
 }
 
-h1 {
-    font-size: 8em;
+.nadpis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 600px;
+    font-size: 8.5em;
     margin: 0;
     padding: 0;
-    letter-spacing: 20px;
     margin-top: -20px;
     animation: nadpis 15s linear infinite;
+}
+
+h1 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
 }
 
 svg {
